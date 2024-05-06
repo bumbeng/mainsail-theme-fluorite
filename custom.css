@@ -14,7 +14,8 @@
     background-color: transparent;
 }
 .theme--dark.v-tabs-items {
-    background-color: transparent;
+    backdrop-filter: blur(10px);
+    background-color: #28282860 !important;
 }
 /* sub-header */
 .theme--dark.v-toolbar.v-sheet {
