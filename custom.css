@@ -1,8 +1,6 @@
 :root {
     --v-warning-base: #c97e20;
 }
-
-/* box-color */
 .v-sheet.v-card {
     border-radius: 10px !important;
     background-color: #28282860 !important;
@@ -17,22 +15,19 @@
     backdrop-filter: blur(10px);
     background-color: #28282860 !important;
 }
-/* sub-header */
 .theme--dark.v-toolbar.v-sheet {
     background-color: #28282880;
 }
-.expanded header.v-toolbar[data-v-3cfcc6d8] {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+.expanded header.v-toolbar {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
 }
-/* main-header */
 .theme--dark.v-app-bar.v-toolbar.v-sheet {
     background-color: #28282880!important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 3px 10px -2px #0003, 0 2px 2px #00000024, 0 1px 8px #0000001f !important;
 }
-/* sidebar */
 .theme--dark.v-navigation-drawer {
     background-color: #28282880!important;
     backdrop-filter: blur(10px);
